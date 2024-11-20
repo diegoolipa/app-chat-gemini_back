@@ -1,0 +1,82 @@
+{
+    "info_general": {
+        "nombre": "Fashion Store",
+        "horario": "Lunes a Sábado 9:00-20:00",
+        "metodos_pago": ["Tarjeta de crédito", "Débito", "Transferencia"],
+        "politica_devoluciones": "30 días para cambios y devoluciones"
+    },
+    "categorias": {
+        "casual": {
+            "productos": [
+                {
+                    "id": "C001",
+                    "nombre": "Camiseta Básica",
+                    "precio": 299.99,
+                    "tallas": ["XS", "S", "M", "L", "XL"],
+                    "colores": ["Blanco", "Negro", "Gris"],
+                    "descripcion": "Camiseta 100% algodón, perfecta para el día a día"
+                },
+                {
+                    "id": "C002",
+                    "nombre": "Jeans Clásicos",
+                    "precio": 599.99,
+                    "tallas": ["28", "30", "32", "34", "36"],
+                    "colores": ["Azul", "Negro"],
+                    "descripcion": "Jeans de corte regular, material duradero"
+                }
+            ]
+        },
+        "deportiva": {
+            "productos": [
+                {
+                    "id": "D001",
+                    "nombre": "Leggings Deportivos",
+                    "precio": 449.99,
+                    "tallas": ["XS", "S", "M", "L"],
+                    "colores": ["Negro", "Azul", "Rosa"],
+                    "descripcion": "Leggings de alto rendimiento con tecnología dry-fit"
+                }
+            ]
+        },
+        "formal": {
+            "productos": [
+                {
+                    "id": "F001",
+                    "nombre": "Blazer Ejecutivo",
+                    "precio": 899.99,
+                    "tallas": ["S", "M", "L", "XL"],
+                    "colores": ["Negro", "Azul marino"],
+                    "descripcion": "Blazer elegante para ocasiones especiales"
+                }
+            ]
+        }
+    },
+    "promociones": [
+        {
+            "id": "PROMO1",
+            "descripcion": "20% de descuento en segunda prenda",
+            "fecha_inicio": "2024-01-01",
+            "fecha_fin": "2024-12-31"
+        },
+        {
+            "id": "PROMO2",
+            "descripcion": "Envío gratis en compras mayores a $999",
+            "fecha_inicio": "2024-01-01",
+            "fecha_fin": "2024-12-31"
+        }
+    ],
+    "envios": {
+        "metodos": [
+            {
+                "tipo": "domicilio",
+                "tiempo": "2-3 días hábiles",
+                "costo": 99.99
+            },
+            {
+                "tipo": "tienda",
+                "tiempo": "inmediato",
+                "costo": 0
+            }
+        ]
+    }
+}
